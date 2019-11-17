@@ -1,0 +1,11 @@
+# Add your Python code here. E.g.
+from microbit import *
+
+one = Image("00000:00000:00800:00000:00000")
+two = Image("00000:00000:08080:00000:00000")
+three = Image("80000:00000:00800:00000:00008")
+four = Image("00000:08080:00000:08080:00000")
+five = Image("80008:00000:00800:00000:80008")
+six = Image("08080:00000:08080:00000:08080")
+all_dots=[one,two,three,four,five,six]
+display.show(all_dots,delay=800)
